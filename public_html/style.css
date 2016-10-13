@@ -1,0 +1,39 @@
+/* 
+Created on : 13-Oct-2016, 06:24:21
+Author     : Nathan Friend inbox@nathanfriend.co.uk
+About      : 3 column flexbox
+Guide      : https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+
+body {
+    background-color: grey;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-height:stretch;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+}
+
+.col1 {
+    background-color: green;
+    height: 100px;
+    flex: 1 30%;
+}
+
+.col2 {
+    background-color: yellow;
+    flex: 1 30%;
+}
+
+.col3 {
+    background-color: red;
+    flex: 1 30%;
+}
+
